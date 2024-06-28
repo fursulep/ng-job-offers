@@ -1,0 +1,15 @@
+<div class="container">
+    <h1>Find your job</h1>
+  <nav>
+    <div class="row">
+      <div class="col-lg-6">
+        <a [routerLink]="'/jobs/'" routerLinkActive="active">Jobs</a>
+      </div>
+
+      <div class="col-lg-6">
+        <a [routerLink]="'/favorites/'" routerLinkActive="active">Favorites</a>
+      </div>
+    </div>
+  </nav>
+  <router-outlet></router-outlet>
+</div>

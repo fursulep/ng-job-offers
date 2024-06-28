@@ -1,0 +1,23 @@
+button {
+  margin: 0;
+}
+
+.job-desc p {
+  margin: 0;
+}
+
+.back-btn {
+  margin-bottom: 16px;
+}
+
+h2 {
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.job-cat {
+  background-color: #a7a7a7;
+  border-radius: 22px;
+  padding: 4px 14px;
+  display: inline-block;
+}

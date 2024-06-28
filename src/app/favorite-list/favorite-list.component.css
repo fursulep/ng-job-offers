@@ -1,0 +1,32 @@
+.jobTitle {
+  color: inherit;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.job-info {
+  display: flex;
+  align-items: center;
+}
+
+.job-row {
+  position: relative;
+  margin-bottom: 8px;
+}
+.job-row .icon-star {
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+}
+
+.job-info p {
+  margin: 0;
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+.noFav {
+  text-align: center;
+  font-size: 18px;
+}
